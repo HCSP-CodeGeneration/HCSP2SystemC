@@ -1,0 +1,6 @@
+1. Simulate roomheating.mdl for 10 length with the sample time of Control be 0.001;
+2. Run compute_L.m to get L;
+3. Run compute_max_X.m to get the maximal value of the two-order derivative for different ODEs;
+4. Simulate roomheating.mdl for 10 length with the sample time of Control be 0.1;
+5. Run compute_epsilon.m to get the range of epsilon;
+6. Run compute_h.m to get the upper bound of the step size h (the setting of the values of some parameters are based on the results computed in step 2,3 and 5);
